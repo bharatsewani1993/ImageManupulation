@@ -27,7 +27,7 @@ func CreateImages() {
 		fmt.Println(err)
 	}
 
-	//Draw profilepic on white backgroud
+	//Draw productpic on white backgroud
 	offset := image.Pt(300, 200)
 	b := backGroundd.Bounds()
 	canvas := image.NewRGBA(b)
